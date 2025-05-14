@@ -63,7 +63,7 @@ def _predictor(
 def ocr_predictor(
     det_arch: Any = "fast_base",
     reco_arch: Any = "crnn_vgg16_bn",
-    pretrained: bool = False,
+    pretrained: bool = True,
     pretrained_backbone: bool = True,
     assume_straight_pages: bool = True,
     preserve_aspect_ratio: bool = True,
