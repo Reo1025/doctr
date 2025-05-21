@@ -10,6 +10,7 @@ __all__ = ["VOCABS"]
 
 VOCABS: dict[str, str] = {
     # Arabic & Persian
+    "Japan_test": "アイウエオカキクケコサシスセソタチツテト",
     "arabic_diacritics": "ًٌٍَُِّْ",
     "arabic_digits": "٠١٢٣٤٥٦٧٨٩",
     "arabic_letters": "ءآأؤإئابةتثجحخدذرزسشصضطظعغـفقكلمنهوىي",
